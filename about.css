@@ -1,0 +1,75 @@
+*,
+*:before,
+*:after {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --primary-color: black;
+  --secundary-color: white;
+  --tertiary-color: gray;
+}
+
+
+@media only screen and (min-width: 1px) {
+
+  .main-container {
+    padding-top: 30px;
+    font-size: var(--font-size-small);
+    line-height: var(--line-height-normal);
+    grid-template-areas:
+      "main-item-1 main-item-1"
+      "main-item-2 main-item-4"
+      "main-item-3 main-item-4"
+  }
+
+  .subhead {
+      font-size: var(--font-size-extralarge);
+      padding-bottom: 15px;
+      padding-left: 15px;
+  }
+}
+
+@media only screen and (min-width: 568px) {
+
+  .main-container {
+    font-size: var(--font-size-large);
+    line-height: var(--line-height-tight);
+  }
+
+  .subhead {
+    font-size: var(--font-size-small);
+  }
+}
+
+@media only screen and (min-width: 768px) {
+
+  .main-container {
+    grid-template-areas:
+      "main-item-1 main-item-1 ."
+      "main-item-2 main-item-4 ."
+      "main-item-3 main-item-4 ."
+  }
+}
+
+@media only screen and (min-width: 1112px) {
+  
+  .main-container {
+    grid-template-areas:
+      ". main-item-1 main-item-1 ."
+      ". main-item-2 main-item-4 ."
+      ". main-item-3 main-item-4 ."
+  }
+}
+
+@media only screen and (min-width: 1920px) {
+
+  .main-container {
+    font-size: var(--font-size-extralarge);
+  }
+
+  .subhead {
+    font-size: var(--font-size-large);
+  }
+}
