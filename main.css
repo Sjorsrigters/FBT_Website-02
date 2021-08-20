@@ -7,8 +7,8 @@
 
 :root {
   --font-regular: 'NeueHaasGroteskText Pro Rg';
-  --font-size-small: 11pt;
-  --font-size-medium: 12.5pt;
+  --font-size-small: 10pt;
+  --font-size-medium: 12pt;
   --font-size-large: 14pt;
   --font-size-extralarge: 16pt;
   --line-height-tight: 1.2;
@@ -101,7 +101,7 @@ video {
   }
 
   .header-item-2 {
-    max-width: 310px;
+    max-width: 280px;
     font-size: var(--font-size-small);
   }
 
