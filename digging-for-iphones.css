@@ -1,5 +1,9 @@
 @media only screen and (min-width: 1px) {
 
+  .header-item-2 {
+    max-width: none;
+  }
+
   .main-container {
     padding-top: var(--padding-margin-medium);
     font-size: var(--font-size-small);
@@ -67,5 +71,11 @@
 
   .main-container {
     font-size: var(--font-size-extralarge);
+  }
+
+  #main-item-3[data-aos=fade-up] {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+    opacity: 1;
   }
 }

@@ -1,5 +1,9 @@
 @media only screen and (min-width: 1px) {
 
+  .header-item-2 {
+    max-width: none;
+  }
+
   .main-container {
     padding-top: var(--padding-margin-medium);
     font-size: var(--font-size-small);

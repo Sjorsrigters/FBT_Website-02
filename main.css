@@ -217,12 +217,14 @@ video {
     grid-area: main-item-previous;
     align-self: end;
     justify-self: start;
+    font-size: var(--font-size-large);
   }
 
   #main-item-next {
     grid-area: main-item-next;
     align-self: end;
     justify-self: end;
+    font-size: var(--font-size-large);
   }
 
   .caption {
@@ -422,6 +424,14 @@ video {
 
   .main-container {
     font-size: var(--font-size-medium);
+  }
+
+  #main-item-previous {
+    font-size: var(--font-size-extralarge);
+  }
+
+  #main-item-next {
+    font-size: var(--font-size-extralarge);
   }
 
   .subhead {
