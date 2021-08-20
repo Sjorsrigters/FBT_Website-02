@@ -30,23 +30,42 @@
   <meta name="og:description" project="[to fill in]" />
   <meta name="og:url" project="www.foundedbytwo.com" />
 
-  <link rel="stylesheet" href="index.css" />
+  <link rel="stylesheet" href="main.css" />
   <link rel="stylesheet" href="about.css" />
   <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css" />
 
 </head>
 
 
 <body>
 
+<article>
   <header>
     <div class="header-container">
       <div id="header-item-1">
-        Founded by Two
+        <a class="button" href="index.html"> 
+          Founded by Two
+      </a>
       </div>
 
       <div id="header-item-2">
-        Two native speakers in visual language offering creative direction and graphic design
+        <div id="div2" class="targetDiv" style="display:none;">
+          <div class="button-container-mobile">
+            <a class="button button-header" href="work.html">
+              Work
+            </a>
+            <a class="button button-header" href="about.html">
+              About
+            </a>
+            <a class="button button-header" href="https://www.instagram.com/foundedbytwo/?hl=nl" target="_blank"> 
+              Instagram
+            </a>
+          </div>
+        </div>
+        <div class="header-item-2">
+          Two native speakers in visual language offering creative direction and graphic design
+        </div>
       </div>
 
       <div id="header-item-3">
@@ -74,19 +93,6 @@
         </div>
       </div>
     </div>
-
-    <div id="div2" class="targetDiv" style="display:none;">
-      <div class="button-container-mobile">
-        <a class="button button-header" href="work.html">
-          Work
-        </a>
-        <a class="button button-header" href="about.html">
-          About
-        </a>
-        <a class="button button-header" href="https://www.instagram.com/foundedbytwo/?hl=nl" target="_blank"> 
-          Instagram
-        </a>
-      </div>
   </header>
 
   <main>
@@ -144,19 +150,19 @@
       </div>
       <div id="footer-item-2">
         <div class="button-container-footer">
-          <a class="button button-footer" href="mailto:info@foundedbytwo.com">
+          <a class="button tertiary-color" href="mailto:info@foundedbytwo.com">
             info@foundedbytwo.com
          </a>
-         <a class="button button-footer" href="tel:+31641411115">
+         <a class="button tertiary-color" href="tel:+31641411115">
             Fabiola: (+31)6 4141 1115
          </a>
-         <a class="button button-footer" href="tel:+31644132028">
+         <a class="button tertiary-color" href="tel:+31644132028">
            Sjors: (+31)6 4413 2028
           </a>
         </div>
       </div>
       <div id="footer-item-3">
-        <a class="button button-footer" href="https://www.google.com/maps/place/Benthemstraat+30,+3032+AA+Rotterdam/@51.9282488,4.4739204,17z/data=!3m1!4b1!4m5!3m4!1s0x47c434a856a04cc5:0x29d731b47e7dba04!8m2!3d51.9282488!4d4.4761091" target="_blank">
+        <a class="button tertiary-color" href="https://www.google.com/maps/place/Benthemstraat+30,+3032+AA+Rotterdam/@51.9282488,4.4739204,17z/data=!3m1!4b1!4m5!3m4!1s0x47c434a856a04cc5:0x29d731b47e7dba04!8m2!3d51.9282488!4d4.4761091" target="_blank">
           Benthemstraat 30<br>
           3032 AA, Rotterdam<br>
           The Netherlands
@@ -164,23 +170,24 @@
       </div>
       <div id="footer-item-4">
         <div class="button-container-footer">
-          <a class="button button-footer" href="https://www.instagram.com/foundedbytwo/?hl=nl" target="_blank">
+          <a class="button tertiary-color" href="https://www.instagram.com/foundedbytwo/?hl=nl" target="_blank">
             Instagram
           </a>
-          <a class="button button-footer" href="https://www.linkedin.com/company/76847336/admin/" target="_blank">
+          <a class="button tertiary-color" href="https://www.linkedin.com/company/76847336/admin/" target="_blank">
             LinkedIn
           </a>
         </div>
       </div>
     </div>
   </footer>
+</article>
 
 </body>
 
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <script src="index.js"></script>
-<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 <script>
   AOS.init();
 </script>

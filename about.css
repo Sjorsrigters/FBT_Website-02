@@ -1,10 +1,3 @@
-*,
-*:before,
-*:after {
-  margin: 0;
-  box-sizing: border-box;
-}
-
 :root {
   --primary-color: black;
   --secundary-color: white;
@@ -15,19 +8,13 @@
 @media only screen and (min-width: 1px) {
 
   .main-container {
-    padding-top: 30px;
+    padding-top: var(--padding-margin-medium);
     font-size: var(--font-size-small);
     line-height: var(--line-height-normal);
     grid-template-areas:
       "main-item-1 main-item-1"
       "main-item-2 main-item-4"
       "main-item-3 main-item-4"
-  }
-
-  .subhead {
-      font-size: var(--font-size-extralarge);
-      padding-bottom: 15px;
-      padding-left: 15px;
   }
 }
 
@@ -36,10 +23,6 @@
   .main-container {
     font-size: var(--font-size-large);
     line-height: var(--line-height-tight);
-  }
-
-  .subhead {
-    font-size: var(--font-size-small);
   }
 }
 
@@ -67,9 +50,5 @@
 
   .main-container {
     font-size: var(--font-size-extralarge);
-  }
-
-  .subhead {
-    font-size: var(--font-size-large);
   }
 }
