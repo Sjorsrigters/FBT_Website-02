@@ -1,3 +1,10 @@
+:root {
+  --primary-color: black;
+  --secundary-color: white;
+  --tertiary-color: gray;
+}
+
+
 @media only screen and (min-width: 1px) {
 
   .main-container {
@@ -6,17 +13,8 @@
     line-height: var(--line-height-normal);
     grid-template-areas:
       "main-item-1 main-item-1"
-      "main-item-2 main-item-2"
-      "main-item-3 main-item-3"
-      "main-item-previous main-item-next"
-  }
-
-  .main-item {
-    margin-bottom: calc(-4px + var(--padding-margin-small));
-  }
-
-  #main-item-1 {
-    padding-bottom: var(--padding-margin-small);
+      "main-item-2 main-item-4"
+      "main-item-3 main-item-4"
   }
 }
 
@@ -33,9 +31,8 @@
   .main-container {
     grid-template-areas:
       "main-item-1 main-item-1 ."
-      "main-item-2 main-item-2 ."
-      "main-item-3 main-item-3 ."
-      "main-item-previous . main-item-next"
+      "main-item-2 main-item-4 ."
+      "main-item-3 main-item-4 ."
   }
 }
 
@@ -44,13 +41,8 @@
   .main-container {
     grid-template-areas:
       ". main-item-1 main-item-1 ."
-      ". main-item-2 main-item-2 ."
-      "main-item-previous main-item-3 main-item-3 main-item-next"
-  }
-
-  .main-item {
-    height: fit-content;
-    margin-bottom: calc(-4px + var(--padding-margin-small));
+      ". main-item-2 main-item-4 ."
+      ". main-item-3 main-item-4 ."
   }
 }
 
