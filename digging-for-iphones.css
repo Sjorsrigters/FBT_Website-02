@@ -43,6 +43,12 @@
       "main-item-6 main-item-6 ."
       "main-item-previous . main-item-next"
   }
+
+  #main-item-3[data-aos=fade-up] {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+    opacity: 1;
+  }
 }
 
 @media only screen and (min-width: 1112px) {
