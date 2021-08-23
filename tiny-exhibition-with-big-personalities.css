@@ -13,8 +13,6 @@
       "main-item-2 main-item-2"
       "main-item-3 main-item-3"
       "main-item-4 main-item-4"
-      "main-item-5 main-item-5"
-      "main-item-6 main-item-6"
       "main-item-previous main-item-next"
   }
 
@@ -28,7 +26,7 @@
 }
 
 @media only screen and (min-width: 568px) {
-  
+
   .main-container {
     font-size: var(--font-size-large);
     line-height: var(--line-height-tight);
@@ -42,9 +40,7 @@
       "main-item-1 main-item-1 ."
       "main-item-2 main-item-2 ."
       "main-item-3 main-item-3 ."
-      "main-item-4 . ."
-      "main-item-5 main-item-5 ."
-      "main-item-6 . ."
+      "main-item-4 main-item-4 ."
       "main-item-previous . main-item-next"
   }
 }
@@ -56,9 +52,7 @@
       ". main-item-1 main-item-1 ."
       ". main-item-2 main-item-2 ."
       ". main-item-3 main-item-3 ."
-      ". main-item-4 . ."
-      ". main-item-5 main-item-5 ."
-      "main-item-previous main-item-6 . main-item-next"
+      "main-item-previous main-item-4 main-item-4 main-item-next"
   }
 
   .main-item {
@@ -71,11 +65,5 @@
 
   .main-container {
     font-size: var(--font-size-extralarge);
-  }
-
-  #main-item-3[data-aos=fade-up] {
-    -webkit-transform: translateY(0);
-    transform: translateY(0);
-    opacity: 1;
   }
 }

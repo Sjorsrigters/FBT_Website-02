@@ -13,8 +13,6 @@
       "main-item-2 main-item-2"
       "main-item-3 main-item-3"
       "main-item-4 main-item-4"
-      "main-item-5 main-item-5"
-      "main-item-6 main-item-6"
       "main-item-previous main-item-next"
   }
 
@@ -42,9 +40,7 @@
       "main-item-1 main-item-1 ."
       "main-item-2 main-item-2 ."
       "main-item-3 main-item-3 ."
-      "main-item-4 . ."
-      "main-item-5 main-item-5 ."
-      "main-item-6 . ."
+      "main-item-4 main-item-4 ."
       "main-item-previous . main-item-next"
   }
 }
@@ -56,9 +52,7 @@
       ". main-item-1 main-item-1 ."
       ". main-item-2 main-item-2 ."
       ". main-item-3 main-item-3 ."
-      ". main-item-4 . ."
-      ". main-item-5 main-item-5 ."
-      "main-item-previous main-item-6 . main-item-next"
+      "main-item-previous main-item-4 main-item-4 main-item-next"
   }
 
   .main-item {
