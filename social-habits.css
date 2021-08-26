@@ -19,10 +19,6 @@
       "main-item-previous main-item-next"
   }
 
-  .main-item {
-    margin-bottom: calc(-4px + var(--padding-margin-small));
-  }
-
   #main-item-1 {
     padding-bottom: var(--padding-margin-small);
   }

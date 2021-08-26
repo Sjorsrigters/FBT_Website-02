@@ -1,0 +1,76 @@
+@media only screen and (min-width: 1px) {
+
+  .header-item-2 {
+    max-width: none;
+  }
+
+  .main-container {
+    padding-top: var(--padding-margin-medium);
+    font-size: var(--font-size-small);
+    line-height: var(--line-height-normal);
+    grid-template-areas:
+      "main-item-1 main-item-1"
+      "main-item-2 main-item-2"
+      "main-item-3 main-item-3"
+      "main-item-4 main-item-4"
+      "main-item-5 main-item-5"
+      "main-item-previous main-item-next"
+  }
+
+  .main-item {
+    margin-bottom: calc(-4px + var(--padding-margin-small));
+  }
+
+  #main-item-1 {
+    padding-bottom: var(--padding-margin-small);
+  }
+}
+
+@media only screen and (min-width: 568px) {
+  
+  .main-container {
+    font-size: var(--font-size-large);
+    line-height: var(--line-height-tight);
+  }
+}
+
+@media only screen and (min-width: 768px) {
+
+  .main-container {
+    grid-template-areas:
+      "main-item-1 main-item-1 ."
+      "main-item-2 main-item-2 ."
+      "main-item-3 main-item-3 ."
+      "main-item-previous . main-item-next"
+  }
+}
+
+@media only screen and (min-width: 1112px) {
+  
+  .main-container {
+    grid-template-areas:
+      ". main-item-1 main-item-1 ."
+      ". main-item-2 main-item-2 ."
+      ". main-item-3 . ."
+      ". main-item-4 main-item-4 ."
+      "main-item-previous main-item-5 . main-item-next"
+  }
+
+  .main-item {
+    height: fit-content;
+    margin-bottom: calc(-4px + var(--padding-margin-small));
+  }
+}
+
+@media only screen and (min-width: 1920px) {
+
+  .main-container {
+    font-size: var(--font-size-extralarge);
+  }
+
+  #main-item-3[data-aos=fade-up] {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+    opacity: 1;
+  }
+}

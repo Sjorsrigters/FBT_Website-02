@@ -11,10 +11,11 @@
     padding-top: var(--padding-margin-medium);
     font-size: var(--font-size-small);
     line-height: var(--line-height-normal);
+    grid-template-rows: auto auto 1fr;
     grid-template-areas:
       "main-item-1 main-item-1"
-      "main-item-2 main-item-4"
-      "main-item-3 main-item-4"
+      "main-item-2 ."
+      "main-item-3 main-item-3"
   }
 }
 
@@ -31,8 +32,8 @@
   .main-container {
     grid-template-areas:
       "main-item-1 main-item-1 ."
-      "main-item-2 main-item-4 ."
-      "main-item-3 main-item-4 ."
+      "main-item-2 . ."
+      "main-item-3 main-item-3"
   }
 }
 
@@ -41,8 +42,8 @@
   .main-container {
     grid-template-areas:
       ". main-item-1 main-item-1 ."
-      ". main-item-2 main-item-4 ."
-      ". main-item-3 main-item-4 ."
+      ". main-item-2 . ."
+      ". main-item-3 main-item-3 ."
   }
 }
 
