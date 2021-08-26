@@ -218,6 +218,7 @@ video {
     align-self: end;
     justify-self: start;
     font-size: var(--font-size-large);
+    padding-top: var(--padding-margin-small);
   }
 
   #main-item-next {
@@ -225,6 +226,7 @@ video {
     align-self: end;
     justify-self: end;
     font-size: var(--font-size-large);
+    padding-top: var(--padding-margin-small);
   }
 
   .caption {
